@@ -1,6 +1,6 @@
 # fix-router
 
-```
+```php
 Router::controller("/test/[:all]", new \App\www\controller\Test(),"app");
 ```
 ```
