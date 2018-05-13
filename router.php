@@ -1,9 +1,7 @@
 <?php
-
-
-
-namespace Core\Router;
-
+/**
+* Cengiz AKCAN
+*/
 class Router
 {
 
