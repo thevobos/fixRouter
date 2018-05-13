@@ -1,7 +1,9 @@
 <?php
-/**
-* Cengiz AKCAN
-*/
+
+
+
+namespace Core\Router;
+
 class Router
 {
 
@@ -35,6 +37,9 @@ class Router
     const GET                   = "GET";
     const PUT                   = "PUT";
     const DELETE                = "DELETE";
+    const HEAD                  = "HEAD";
+    const OPTIONS               = "OPTIONS";
+    const PATCH                 = "PATCH";
 
     public static $writeRoute   = null;
     public static $writeUrl     = null;
